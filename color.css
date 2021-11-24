@@ -1,9 +1,9 @@
 .nav-center{
   display: flex;
   color: #54a0ff;
-  /* margin-left: 25%; */
   padding: 0px;
   background-color: white;
+  border-radius: 5px;
 }
 .colorflipper{
   margin-left: 350px;
@@ -30,6 +30,17 @@ a:link{
   justify-content: center;
   display: flex;
   margin-top:10%;
+  padding-bottom: 25px;
+}
+.custom_colors{
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+  margin: 10px;
+  padding: 5px;
+  letter-spacing: 3px;
+  font-family: 'Roboto', sans-serif;
+  
 }
 .custombtn{
   display: flex;
@@ -39,9 +50,12 @@ a:link{
 }
 #btn{
   height: 50px;
-  /* padding: 30px; */
-  width: 100px;
+  width: 150px;
   outline: none;
   border-radius: 8px;
   border-style: none;
+  font-size: larger;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 4px;
 }

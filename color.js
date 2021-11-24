@@ -1,4 +1,19 @@
-const colors = ["green", "red", "rgba(133,122,200)", "#f15025"];
+const colors = [
+  "Green",
+  "Red",
+  "rgba(133,122,200)",
+  "#f15025",
+  "Pink",
+  "Yellow",
+  "Whitesmoke",
+  "LightCoral",
+  "Navy",
+  "Fuchsia",
+  "Purple",
+  "Aqua",
+  "Black",
+  "Maroon",
+];
 const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
 btn.addEventListener("click", function () {
