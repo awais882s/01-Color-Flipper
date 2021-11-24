@@ -1,0 +1,32 @@
+.nav-center{
+  display: flex;
+  color: #54a0ff;
+  /* margin-left: 25%; */
+  padding: 0px;
+  background-color: white;
+}
+.colorflipper{
+  margin-left: 350px;
+  letter-spacing: 4px;
+}
+.nav-links{
+  list-style: none;
+  text-decoration: none;
+  font-size: larger;
+  
+}
+a:link{
+  text-decoration: none;
+}
+.custom_links{
+  margin-left: 300px;
+  margin-top: 3px;
+  font-size: larger;
+  font-weight: bold;
+  letter-spacing: 5px;
+  
+}
+.container{
+  justify-content: center;
+  display: flex;
+}
